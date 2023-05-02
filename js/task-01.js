@@ -7,7 +7,7 @@ document.write('Number of categories: '+ items);
 
 liItem.forEach((item => {
     const headings = item.querySelector("h2");
-    const list = item.querySelector("ul");
+    const list = list.querySelector("ul");
     const item = item.querySelectorAll("li");
 }));
 console.log('Category: ${headings.textContent}');
